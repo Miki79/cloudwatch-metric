@@ -9,6 +9,14 @@ sudo apt-get install unzip
 sudo apt-get install libwww-perl libdatetime-perl
 ```
 
+Download the script and unzip it
+```
+cd /opt/
+wget https://github.com/Miki79/cloudwatch-metric/archive/master.zip
+unzip master.zip
+rm master.zip
+```
+
 Specify your AWS credentials in a credentials file. First, copy the awscreds.template file included with the monitoring scripts to awscreds.conf as follows:
 
 ```

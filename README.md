@@ -31,5 +31,5 @@ AWSSecretKey=my-secret-access-key
 
 Create cronjob
 ```
-*/5 * * * * /opt/aws-scripts-mon/mon-put-instance-data.pl --mem-used --mem-util --mem-avail --disk-space-util --disk-space-avail --disk-path=/ --from-cron
+*/5 * * * * /opt/aws-scripts-mon/mon-put-instance-data.pl --disk-space-avail --disk-path=/ --from-cron
 ```
